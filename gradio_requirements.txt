@@ -1,0 +1,24 @@
+# ChatterBox TTS & VC Gradio Interface Requirements
+
+# Core dependencies
+gradio>=4.0.0
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.21.0
+librosa>=0.9.0
+
+# ChatterBox TTS (main package)
+chatterbox-tts
+
+# Additional utilities
+pathlib2>=2.3.0
+huggingface-hub>=0.16.0
+safetensors>=0.3.0
+
+# Optional: For better performance
+accelerate>=0.20.0
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0
